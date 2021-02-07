@@ -15,6 +15,6 @@ func reverseString(_ input: String) -> String {
   return reversStringInternal
 }
 
-print(reverseString(normalString))
+print(reverseString(normalString)) // backwards
 print("---------------------------")
-print(reverseString(reverseString))
+print(reverseString(reverseString)) // forwards
